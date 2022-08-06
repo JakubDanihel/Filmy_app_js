@@ -1,0 +1,2 @@
+# Filmy_app_js
+Aplikacia na nacitanie top 20 filmov a kde sa zobrazi plagat, hodnotenie filmov, nazov filmu, strucny obsah filmu po umiestneni kurzora na plagat filmu a search bar na vyhladanie filmov kde sa vypisu vsetky filmy s vyhladavanym atributom a rovnako ako aj hodnotenie, nazov filmu, plagat a po umiestneni kurzora na plagat filmu sa zobrazi strucny obsah filmu. Napisane s vyuzitim JS+html+css
