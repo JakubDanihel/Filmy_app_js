@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@1&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #6fdd65;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header input{
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 0.25rem;
+}
+
+header input::placeholder{
+    color: white;
+}
+
+.overview{
+    position: absolute;
+    padding: 2rem;
+    max-height: 100%;
+    overflow: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in;
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film{
+    margin: 1rem;
+    background-color: rgb(253, 84, 84);
+    box-shadow: 0 4px 5px rgb(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 256px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.film img{
+    max-width: 100%;
+}
+
+.film-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.film-info h3{
+    margin: 0;
+}
+
+.film-info span{
+    background-color: yellow;
+    border-radius: 1rem; 
+    padding: 0.25rem 0.5rem;   
+}
+
+.film:hover .overview{
+    transform: translateY(0%);
+}
